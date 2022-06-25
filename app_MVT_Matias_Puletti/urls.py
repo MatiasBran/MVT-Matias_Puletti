@@ -1,8 +1,9 @@
 from django.contrib import admin
 from django.urls import path
 
-from .views import lista_familia
+from .views import datos_familia, listado_familia
 
 urlpatterns = [
-    path('lista-familia/<nom_familiar>/<edad_familiar>/<nacimiento_familiar>/', lista_familia),    
+    path('datos-familia/', datos_familia),
+    path('listado-familia/', listado_familia)    
 ]
