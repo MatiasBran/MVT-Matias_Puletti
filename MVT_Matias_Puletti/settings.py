@@ -37,7 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'app_MVT_Matias_Puletti'
+    'app_MVT_Matias_Puletti',    
 ]
 
 MIDDLEWARE = [

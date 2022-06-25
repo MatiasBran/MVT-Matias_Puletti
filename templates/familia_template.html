@@ -7,6 +7,12 @@
     <title>ENTREGABLE MATIAS PULETTI</title>
 </head>
 <body>
-    hola mundo
+    {% comment %} {% for nombres in lista_familia %} {% endcomment %}
+    <p>Primer familiar: 
+        <li>Nombre: {{model.nombre_familiar}} 
+        <li>Edad: {{model.edad_familiar}} </li>
+        <li>Fecha de nacimiento: {{model.nacimiento_familiar}}</li>
+    </p>
+    {% comment %} {% endfor %} {% endcomment %}
 </body>
 </html>
